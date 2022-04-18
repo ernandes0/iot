@@ -4,7 +4,7 @@
 
 #define Ptrig   2 //atribuindo o pino 2 ao trigger do sensor
 #define Pecho   3 //atribuindo o pino 3 ao echo do sensor
-#define Pled    LED_BUILTIN //atribuindo o pino 8 ao led builtin
+#define Pled    LED_BUILTIN //atribuindo o pino ao led builtint
 CircularBuffer<int, 60> buffer;
 
 int dist;
